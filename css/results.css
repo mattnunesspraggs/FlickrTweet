@@ -1,0 +1,50 @@
+table {
+	border-collapse:collapse;
+	border-bottom: 2px solid black;
+}
+
+.thead {
+	background-color: #FFCC00;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+td {
+	padding: 4px;
+	border-bottom: 1px dotted gray;
+}
+
+td.left {
+	border-right: 1px dotted gray;
+}
+
+.num_votes {
+	font-size: 20px;
+	font-family: Impact, Charcoal, Helvetica bold, Arial bold, sans-serif bold;
+}
+
+.total_votes {
+	font-size: 15px;
+	font-family: Impact, Charcoal, Helvetica bold, Arial bold, sans-serif bold;
+}
+
+#button_bar {
+	text-align: right;
+}
+
+div#table {
+	clear: both;
+}
+
+td.tweet_text {
+	background-color: #FFF2CC;
+	font-size: 25px;
+}
+
+.current_page {
+	font-size: 25px;
+}
+
+img {
+	border: none;
+}

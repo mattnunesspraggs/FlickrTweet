@@ -1,0 +1,45 @@
+table#user_form {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+td.label {
+	font-family: 'Helvetica Neue';
+	font-weight: 300;
+	font-style: italic;
+	color: #666;
+}
+
+textarea {
+	resize: none;
+	
+	border: 1px solid #555;
+	
+	position: relative;
+	height: 2em;
+}
+
+input {
+	border: 1px solid #555;
+	height: 2em;
+}
+
+table {
+	border-collapse:collapse;
+	border-bottom: 2px solid black;
+}
+
+.thead {
+	background-color: #FFCC00;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+td {
+	padding: 4px;
+	border-bottom: 1px dotted gray;
+}
+
+td.left {
+	border-right: 1px dotted gray;
+}

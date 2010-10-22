@@ -1,0 +1,33 @@
+div#login {
+	padding: 20px;
+	width: 450px;
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	border: 3px solid gray;
+	
+	-webkit-border-radius: 25px;
+	-mozilla-border-radius: 25px;
+	border-radius: 25px;
+}
+
+div#login > input.fw {
+	width: 100%;
+	font-size: 48px;
+}
+
+span.label {
+	color: #777777;
+}
+
+.msg {
+	text-align: center;
+	padding: 5px;
+	
+	-webkit-border-radius: 10px;
+	-mozilla-border-radius: 10px;
+	border-radius: 10px;
+	
+	color: gray;
+	background-color: #FFF2CC;
+}

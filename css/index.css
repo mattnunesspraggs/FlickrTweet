@@ -1,0 +1,101 @@
+div#instructions {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	padding: 5px;
+	
+	border: 2px solid black;
+	color: #555555;
+	background-color: #FFF2CC;
+}
+
+body {
+	text-align: center;
+}
+
+div.tweet {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	clear: both;
+	
+	font-size: 16pt;
+	margin: 10px;
+	text-align: center;
+	
+	padding: 5px;
+	
+	margin-top: 0px;
+	
+	border: 2px solid #1b1b1b;
+	background-color: #FFF2CC;
+}
+
+div#vote_img {
+/*	height: 550px;
+	width: 550px;*/
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+}
+
+div#vote_img div {
+	display: none;
+	padding: 10px;
+}
+
+div#vote_container {
+	min-height: 500px;
+}
+
+div.tnail {
+	display: inline-block;
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+div.tnail > img {
+	padding: 0px;
+	margin: 25px;
+}
+
+div#images {
+	clear: both;
+	text-align: center;
+}
+
+input#vote_button {
+	position: relative;
+	top: 280px;
+}
+
+.current_thumbnail {
+	border: 2px solid blue;
+}
+
+#content {
+	position: relative;
+}
+
+#button_bar {
+	float: right;
+	text-align: right;
+}
+
+.img_label {
+	float: left;
+	padding: 0px;
+	margin: 0 auto;
+	
+	font-style: italic;
+	
+	font-size: 25px;
+	font-family: Impact, Charcoal, Helvetica bold, Arial bold, sans-serif bold;
+}
